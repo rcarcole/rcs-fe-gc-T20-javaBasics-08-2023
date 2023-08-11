@@ -14,7 +14,7 @@ public class CalculadoraInversa {
         int operando2 = sc.nextInt();
 
         System.out.print("Introduce el signo aritmético (+, -, *, /, ^, %): ");
-        String signo = sc.nextLine();
+        String signo = sc.next();
 
         double resultado = 0;
         String mensaje = "";
